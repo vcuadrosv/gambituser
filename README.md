@@ -1,2 +1,2 @@
 # gambituser
-Integracion de todo el backend de las lambdas y cognito de AWS
+Integracion del backend usando lambdas y cognito en AWS, con desarollo en Go. 
