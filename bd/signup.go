@@ -20,7 +20,7 @@ func SignUp(sig models.SignUp) error {
 
 	sentencia := "INSERT INTO users (User_Email, User_UUDI, User_DateAdd) VALUES ('" + sig.UserEmail + "','" + sig.UserUUID + "','" + tools.FechaMySQL() + "')"
 	fmt.Println(sentencia)
-	//Aqui envia un error en formato execel
+	//Aqui envia un error en formato excel
 	_, err = Db.Exec(sentencia)
 	if err != nil {
 		fmt.Println(err.Error())

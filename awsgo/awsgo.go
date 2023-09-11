@@ -7,6 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/config"
 )
 
+/*CONFIGURACION DE INICIO DE SECCCION*/
 var Ctx context.Context
 var Cfg aws.Config
 var err error
